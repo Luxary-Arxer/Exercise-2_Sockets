@@ -1,0 +1,17 @@
+Basic functionality
+
+Server scene:
+○ Probably named “create game” or similar
+○ It starts a socket and waits for incoming messages from the client scene
+○ It answers with the name of the server
+Client scene:
+○ Probably named “join game”
+○ It allows to insert an IP
+○ It connects to a server, knowing it’s IP
+○ It sends a message with the user’s name
+
+Implemented both cases using UDP and using TCP
+
+Adicional features 
+○ The name of the player appears on top off the avatar
+○ If you put a different name in the UDP or TCP player skins, it also changes the displayed one
